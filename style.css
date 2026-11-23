@@ -1,0 +1,14 @@
+@font-face {
+    font-family: PTSerif;
+    src: url(/fonts/PTSerif-Italic.ttf) format("truetype");
+}
+
+.title_fred {
+    color: #04e09e;
+    text-align: center;
+    font-family: PTSerif;
+}
+
+body {
+    background-color: #252828;
+}
