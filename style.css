@@ -3,10 +3,22 @@
     src: url(/fonts/PTSerif-Italic.ttf) format("truetype");
 }
 
+.title_div {
+    background-color: #04e09e;
+    align-content: center;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 10px 10px 5px darkslategray;
+}
+
 .title_fred {
-    color: #04e09e;
-    text-align: center;
     font-family: PTSerif;
+    font-size: 40px;
+    color: #252828;
+    text-align: left;
+    margin-left: 20px;
 }
 
 body {
