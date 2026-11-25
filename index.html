@@ -10,8 +10,25 @@
       <h4 class="subtitle_fred">Zero utility. Infinite belief. Backed by nothing, audited by Fred, trusted by Fred.</h4>
       <a href="https://fredcoin.quisan.net/#buy-fred" class="buy_fred">Buy Fred</a>
     </div>
+    <div class="day-message-div">
+      <h4 class="day-message-heading">Fred's Daily Dispatch</h4>
+      <p id="day-message" class="day-message"></p>
+    </div>
     <div class="bottom_div">
       <h2 class="bottom_slogan">Something is meant to be here. Fred doesn't know what to put here yet.</h2>
     </div>
+      <script>
+          const dayMessages = [
+              "Sunday: Fredcoin rests. You should too, but we both know you won't.",
+              "Monday: Fredcoin's market strategy is the same as yours - pretend it's fine.",
+              "Tuesday: Nothing screams 'financial revolution' like checking Fredcoin on a Tuesday.",
+              "Wednesday: Halfway through the week. Fredcoin is still somehow a thing.",
+              "Thursday: Pre-Friday energy. Fredcoin is vibrating with questionable confidence.",
+              "Friday: Fredcoin says treat yourself. Your wallet says please don't.",
+              "Saturday: No work, no worries, just Fredcoin and mildly regrettable decisions."
+          ];
+          document.getElementById("day-message").textContent = dayMessages[new Date().getDay()];
+      </script>
   </body>
+
 </html>
