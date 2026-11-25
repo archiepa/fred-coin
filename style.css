@@ -5,12 +5,14 @@
 
 .title_div {
     background-color: #04e09e;
-    align-content: center;
     margin-left: 0px;
     margin-right: 10px;
     border-radius: 10px;
     height: auto;
     box-shadow: 10px 10px 5px darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .title_fred {
@@ -19,6 +21,14 @@
     color: #252828;
     text-align: left;
     margin-left: 20px;
+}
+
+.buy_fred {
+    font-family: PTSerif;
+    font-size: 44px;
+    color: #033737;
+    margin-right: 20px;
+    text-decoration: none;
 }
 
 body {
